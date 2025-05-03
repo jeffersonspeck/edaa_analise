@@ -1,0 +1,97 @@
+Tempo de criação do vetor NÃO ordenado: 0.093145 s
+Memória após criação do vetor NÃO ordenado: 5.25 MB
+Tempo de criação do vetor ORDENADO: 446.462121 s
+Memória após criação do vetor ORDENADO: 7.54 MB
+
+ Vetor NÃO ordenado (1000 EXISTENTES)
+
+[Sequencial]
+Tempo médio: 0.000154s (± 0.000093s)
+Comparações médias: 295136.68 (± 167658.59)
+Memória após Vetor NÃO ordenado (1000 EXISTENTES): 7.79 MB
+
+ Vetor NÃO ordenado (10 INEXISTENTES)
+
+[Sequencial]
+Tempo médio: 0.000295s (± 0.000010s)
+Comparações médias: 600000.00 (± 0.00)
+Memória após Vetor NÃO ordenado (10 INEXISTENTES): 7.79 MB
+
+ Vetor NÃO ordenado (1000 EXISTENTES)
+
+[Sequencial com Sentinela]
+Tempo médio: 0.000078s (± 0.000048s)
+Comparações médias: 295135.68 (± 167658.59)
+Memória após Vetor NÃO ordenado (1000 EXISTENTES): 7.79 MB
+
+ Vetor NÃO ordenado (10 INEXISTENTES)
+
+[Sequencial com Sentinela]
+Tempo médio: 0.000301s (± 0.000013s)
+Comparações médias: 599999.00 (± 0.00)
+Memória após Vetor NÃO ordenado (10 INEXISTENTES): 7.79 MB
+
+ Vetor ORDENADO (1000 EXISTENTES)
+
+[Sequencial]
+Tempo médio: 0.000153s (± 0.000095s)
+Comparações médias: 295811.17 (± 175054.01)
+Memória após Vetor ORDENADO (1000 EXISTENTES): 7.79 MB
+
+ Vetor ORDENADO (10 INEXISTENTES)
+
+[Sequencial]
+Tempo médio: 0.000294s (± 0.000005s)
+Comparações médias: 600000.00 (± 0.00)
+Memória após Vetor ORDENADO (10 INEXISTENTES): 7.79 MB
+
+ Vetor ORDENADO (1000 EXISTENTES)
+
+[Sequencial Otimizada]
+Tempo médio: 0.000147s (± 0.000088s)
+Comparações médias: 295811.17 (± 175054.01)
+Memória após Vetor ORDENADO (1000 EXISTENTES): 7.79 MB
+
+ Vetor ORDENADO (10 INEXISTENTES)
+
+[Sequencial Otimizada]
+Tempo médio: 0.000298s (± 0.000012s)
+Comparações médias: 600000.00 (± 0.00)
+Memória após Vetor ORDENADO (10 INEXISTENTES): 7.79 MB
+
+ Vetor ORDENADO (1000 EXISTENTES)
+
+[Binária]
+Tempo médio: 0.000001s (± 0.000000s)
+Comparações médias: 18.23 (± 1.51)
+Memória após Vetor ORDENADO (1000 EXISTENTES): 7.79 MB
+
+ Vetor ORDENADO (10 INEXISTENTES)
+
+[Binária]
+Tempo médio: 0.000001s (± 0.000000s)
+Comparações médias: 20.00 (± 0.00)
+Memória após Vetor ORDENADO (10 INEXISTENTES): 7.79 MB
+	Command being timed: "./build/test_cria_vetores data/dados600k.txt buscas/buscas_existentes_600k.txt buscas/buscas_inexistentes_600k.txt"
+	User time (seconds): 447.06
+	System time (seconds): 0.04
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 7:28.02
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 7980
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1
+	Minor (reclaiming a frame) page faults: 1056
+	Voluntary context switches: 9322
+	Involuntary context switches: 24
+	Swaps: 0
+	File system inputs: 40
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

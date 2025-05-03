@@ -1,0 +1,9 @@
+estrutura,tamanho_k,etapa,tempo_s,memoria_mb
+cria_encadeadas,100,criação_total,27.299703,8.36
+cria_encadeadas,200,criação_total,140.253383,14.75
+cria_encadeadas,300,criação_total,600.419646,23.19
+cria_encadeadas,400,criação_total,1491.131559,29.37
+cria_encadeadas,500,criação_total,2718.436103,36.07
+cria_encadeadas,600,criação_total,4047.750093,42.29
+cria_encadeadas,700,criação_total,6065.198683,47.68
+cria_encadeadas,800,criação_total,8430.430791,53.76

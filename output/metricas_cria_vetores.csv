@@ -1,0 +1,11 @@
+estrutura,tamanho_k,etapa,tempo_s,memoria_mb
+cria_vetores,100,criação_total,11.993436,4.54
+cria_vetores,200,criação_total,48.408307,3.42
+cria_vetores,300,criação_total,109.451685,5.70
+cria_vetores,400,criação_total,194.498081,6.00
+cria_vetores,500,criação_total,304.815260,5.92
+cria_vetores,600,criação_total,446.462121,7.54
+cria_vetores,700,criação_total,599.378837,7.52
+cria_vetores,800,criação_total,784.143006,8.25
+cria_vetores,900,criação_total,993.540382,8.76
+cria_vetores,1000,criação_total,1229.069183,9.52

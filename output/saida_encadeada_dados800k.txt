@@ -1,0 +1,24 @@
+Tempo de criação da lista NÃO ordenada: 0.019859 s
+Memória após criação da lista NÃO ordenada: 29.41 MB
+Tempo de criação da lista ORDENADA: 8430.430791 s
+Memória após criação da lista ORDENADA: 53.76 MB
+
+[Lista Encadeada - NÃO ordenada (1000 EXISTENTES)]
+Tempo médio: 0.001062s (± 0.000640s)
+Comparações médias: 397014.32 (± 225403.11)
+Memória após NÃO ordenada (1000 EXISTENTES): 53.76 MB
+
+[Lista Encadeada - NÃO ordenada (10 INEXISTENTES)]
+Tempo médio: 0.002121s (± 0.000027s)
+Comparações médias: 800000.00 (± 0.00)
+Memória após NÃO ordenada (10 INEXISTENTES): 53.76 MB
+
+[Lista Encadeada - ORDENADA (1000 EXISTENTES)]
+Tempo médio: 0.025818s (± 0.014871s)
+Comparações médias: 401052.47 (± 230255.39)
+Memória após ORDENADA (1000 EXISTENTES): 53.76 MB
+
+[Lista Encadeada - ORDENADA (10 INEXISTENTES)]
+Tempo médio: 0.051612s (± 0.000452s)
+Comparações médias: 800000.00 (± 0.00)
+Memória após ORDENADA (10 INEXISTENTES): 53.76 MB

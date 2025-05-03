@@ -61,6 +61,43 @@ Esta atividade é a **Avaliação 1 – Algoritmos de Busca**.
   - Comparativas (tempo e memória)
   - Métricas individuais por tamanho (`100k`, `200k`, `300k`, `400k`, `500k`,`600k`,`700k`,`800k`,`900k`,`1kk`.)
 
+### 5. Geração dos Dados de Teste
+
+Antes de compilar e executar os testes em C, você pode gerar automaticamente os cenários de entrada (100 k, 200 k, …, 1 000 k) e os arquivos de buscas existentes/inexistentes com o script Python `gerador_randon.py`.
+
+#### Pré-requisitos
+
+- **Python 3.6+**  
+- (opcional) um ambiente virtual Python (`venv`, `conda`, etc.)
+
+> **Não há dependências externas** além da biblioteca padrão (`random`, `os`).
+
+#### Como usar
+
+1. **Certifique-se de estar na raiz do projeto** (`test_algoritmos/`):
+
+   ```bash
+   cd path/to/test_algoritmos  
+
+2. **Execute o gerador**:
+
+   ```bash
+   python gerador_randon.py     
+
+- Isso vai criar duas pastas (caso ainda não existam):
+  - data/ — arquivos `dados100k.txt`, `dados200k.txt`, `…`, `dados1000k.txt`
+  - buscas/ — arquivos de chaves existentes (`buscas_existentes_*.txt)` e inexistentes (`buscas_inexistentes_*.txt`)
+
+3. **Verifique que os arquivos foram gerados**:
+    data/
+    ├── dados100k.txt
+    ├── dados200k.txt
+    └── … 
+    buscas/
+    ├── buscas_existentes_100k.txt
+    ├── buscas_inexistentes_100k.txt
+    └── …
+
 ## Exemplos de gráficos gerados
 - `metricas_100k.png`, `metricas_200k.png`, ...
 - `tabela_metricas_criacao.png`

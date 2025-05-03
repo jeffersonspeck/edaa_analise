@@ -18,15 +18,38 @@ Esta atividade é a **Avaliação 1 – Algoritmos de Busca**.
 ## Estrutura do Projeto
     test_algoritmos/
     │
-    ├── data/                                  # Arquivos de entrada (.txt) com dados e chaves de busca  
-    ├── output/                                # Saída de execução com métricas extraídas  
-    ├── src/                                   # Implementações C das estruturas e algoritmos  
-    ├── build/                                 # Binaries gerados  
-    ├── .env                                   # Configuração do banco PostgreSQL  
-    ├── estruturas.py                          # Script Python de análise da criação das estruturas  
-    ├── salva_dados.py                         # Inserção dos dados no banco PostgreSQL  
-    ├── *.txt                                  # Arquivos de saída de métricas
-    └── Avaliacao_1_-_Algoritmos_de_Busca.pdf  # Descrição do trabalho    
+    ├── .git/                       # Estrutura do git     
+    ├── analises/                   # Arquivos de análises e algoritmos de análises
+        ├── .env                    # Configuração do banco PostgreSQL  
+        ├── db.py                   # Inserção dos dados no banco PostgreSQL  
+        ├── estruturas.py           # Script Python de análise da criação das estruturas
+        ├── sql.py                  # Utilitário para testes de conexão e consulta de dados
+        └── *.png                   # Arquivos de plotagem de dados
+    ├── build/                      # Binários  
+        ├── test_cria_vetores       # Executável para criar e medir vetores
+        ├── test_cria_encadeadas    # Executável para criar e medir listas encadeadas
+        └── exec                    # Binário principal (dependendo do Makefile)           
+    ├── buscas/                     # Arquivos de entrada (.txt) com dados para buscas (10 e 1000)
+        └── *.txt                   # Arquivos de entrada de buscas
+    ├── data/                       # Arquivos de entrada (.txt) com dados 
+        └── *.txt                   # Arquivos de entrada de 100k até 1kk em intervalos de 100k
+    ├── include/                    # Arquivos de entrada (.txt) com dados para buscas (10 e 1000)
+        └── funcoes.h               # Declarações de Metricas, Node e protótipos das funções de carga, busca e cálculo      
+    ├── output/                     # Arquivos de saídas
+        ├── *.txt                   # Arquivos de saída de métricas 
+        └── *.csv                   # Arquivos de saída de métricas    
+    ├── src/                        # Implementações C das estruturas e algoritmos  
+        ├── funcoes.c               # Implementação de carregar_dados, buscas e cálculo de métricas
+        ├── main.c                  # Programa principal que consolida criação e busca (test_cria_vetores/test_cria_encadeadas)
+        ├── test_cria_vetores.c     # Teste de criação de vetores (ordenado e não ordenado) e testes
+        └── test_cria_encadeadas.c  # Teste de criação de listas encadeadas (ordenada e não ordenada) e testes
+    ├── .gitignore                  # Configurado com o arquivos de uso exclusivo para testes        
+    ├── avaliacao_1.pdf             # Descrição do trabalho
+    ├── gerador_randon.py           # Gerados de dados para testes   
+    ├── Makefile                    # Automatiza toda a etapa de compilação (Opcional)    
+    ├── README.md                   # Este arquivo aqui
+    ├── rodar_cria_encadeadas.sh    # Roda teste total de criação de estrutura e testes em encadeadas
+    └── rodar_cria_vetores.sh       # Roda teste total de criação de estrutura e testes em vetores
 
 
 ## Funcionalidades

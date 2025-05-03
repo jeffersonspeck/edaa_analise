@@ -97,13 +97,13 @@ Esta atividade é a **Avaliação 1 – Algoritmos de Busca**.
 ## Scripts de Execução Automática
 Além dos binários em C, incluímos dois _shell scripts_ que gerenciam toda a geração de métricas de criação de estruturas:
 
-    - **`rodar_cria_vetores.sh`**  
-    Roda o programa `test_cria_vetores` para tamanhos de 100 k até 1 000 k (passo de 100 k), medindo tempo de criação de vetores ordenados e não ordenados e consumo de memória. Os resultados são extraídos do `stdout` e das informações do `/usr/bin/time -v` e salvos em  
-    `output/metricas_cria_vetores.csv` :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.
+- **`rodar_cria_vetores.sh`**  
+Roda o programa `test_cria_vetores` para tamanhos de 100 k até 1 000 k (passo de 100 k), medindo tempo de criação de vetores ordenados e não ordenados e consumo de memória. Os resultados são extraídos do `stdout` e das informações do `/usr/bin/time -v` e salvos em  
+`output/metricas_cria_vetores.csv` :contentReference[oaicite:0]{index=0}:contentReference[oaicite:1]{index=1}.
 
-    - **`rodar_cria_encadeadas.sh`**  
-    Faz o mesmo para `test_cria_encadeadas`, gerando métricas de criação de listas encadeadas ordenadas e não ordenadas nos mesmos tamanhos, e grava em  
-    `output/metricas_cria_encadeadas.csv` :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}.
+- **`rodar_cria_encadeadas.sh`**  
+Faz o mesmo para `test_cria_encadeadas`, gerando métricas de criação de listas encadeadas ordenadas e não ordenadas nos mesmos tamanhos, e grava em  
+`output/metricas_cria_encadeadas.csv` :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}.
 
 ### Como usar
     

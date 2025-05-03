@@ -3,7 +3,6 @@
 Este projeto realiza a **criação**, **execução de buscas** e **análise comparativa de desempenho** de estruturas de dados do tipo **vetor estático** e **lista encadeada**, com foco em **tempo de criação**, **uso de memória** e **eficiência de busca**.
 
 ## Estrutura do Projeto
-    ```bash
     test_algoritmos/
     │
     ├── data/                    # Arquivos de entrada (.txt) com dados e chaves de busca  

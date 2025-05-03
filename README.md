@@ -89,6 +89,7 @@ Antes de compilar e executar os testes em C, você pode gerar automaticamente os
   - buscas/ — arquivos de chaves existentes (`buscas_existentes_*.txt)` e inexistentes (`buscas_inexistentes_*.txt`)
 
 3. **Verifique que os arquivos foram gerados**:
+    
     data/
     ├── dados100k.txt
     ├── dados200k.txt

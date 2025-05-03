@@ -146,7 +146,7 @@ Faz o mesmo para `test_cria_encadeadas`, gerando métricas de criação de lista
 
 ### Como usar
     
-    ```bash
+    
     # Torna os scripts executáveis (se ainda não estiverem)
     chmod +x rodar_cria_vetores.sh rodar_cria_encadeadas.sh
 

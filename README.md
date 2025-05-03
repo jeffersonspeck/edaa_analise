@@ -3,17 +3,17 @@
 Este projeto realiza a **criação**, **execução de buscas** e **análise comparativa de desempenho** de estruturas de dados do tipo **vetor estático** e **lista encadeada**, com foco em **tempo de criação**, **uso de memória** e **eficiência de busca**.
 
 ## Estrutura do Projeto
-
-test_algoritmos/
-│
-├── data/ # Arquivos de entrada (.txt) com dados e chaves de busca
-├── output/ # Saída de execução com métricas extraídas
-├── src/ # Implementações C das estruturas e algoritmos
-├── build/ # Binaries gerados
-├── .env # Configuração do banco PostgreSQL
-├── estruturas.py # Script Python de análise da criação das estruturas
-├── salva_dados.py # Inserção dos dados no banco PostgreSQL
-├── arquivos de saída .txt # Resultados das execuções
+    ```bash
+    test_algoritmos/
+    │
+    ├── data/                    # Arquivos de entrada (.txt) com dados e chaves de busca  
+    ├── output/                  # Saída de execução com métricas extraídas  
+    ├── src/                     # Implementações C das estruturas e algoritmos  
+    ├── build/                   # Binaries gerados  
+    ├── .env                     # Configuração do banco PostgreSQL  
+    ├── estruturas.py            # Script Python de análise da criação das estruturas  
+    ├── salva_dados.py           # Inserção dos dados no banco PostgreSQL  
+    └── *.txt                    # Arquivos de saída de métricas  
 
 ## Funcionalidades
 
@@ -45,7 +45,7 @@ test_algoritmos/
   - Comparativo vetor × lista
 - Geração de tabelas visuais:
   - Comparativas (tempo e memória)
-  - Métricas individuais por tamanho (`100k`, `200k`, etc.)
+  - Métricas individuais por tamanho (`100k`, `200k`, `300k`, `400k`, `500k`,`600k`,`700k`,`800k`,`900k`,`1kk`.)
 
 ## Exemplos de gráficos gerados
 - `metricas_100k.png`, `metricas_200k.png`, ...
@@ -53,7 +53,6 @@ test_algoritmos/
 - `comparativo_tempo_vetor_lista.png`
 
 ## Requisitos
-
 - Python 3.10+
 - PostgreSQL configurado com `.env`
 - Bibliotecas Python:
@@ -65,7 +64,6 @@ test_algoritmos/
   - `python-dotenv`
 
 ## Execução
-
 1. **Compilar os testes (C):**
    ```bash
    make build/test_cria_encadeadas

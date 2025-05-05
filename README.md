@@ -45,7 +45,9 @@ Esta atividade é a **Avaliação 1 – Algoritmos de Busca**.
         ├── main.c                  # Programa principal que consolida criação e busca (test_cria_vetores/test_cria_encadeadas)
         ├── test_cria_vetores.c     # Teste de criação de vetores (ordenado e não ordenado) e testes
         └── test_cria_encadeadas.c  # Teste de criação de listas encadeadas (ordenada e não ordenada) e testes
-    ├── .gitignore                  # Configurado com o arquivos de uso exclusivo para testes        
+    ├── .gitignore                  # Configurado com o arquivos de uso exclusivo para testes   
+    ├── Artigo_EDAA.pdf             # Artigo
+    ├── Artigo_EDAA_latex           # Fontes do artigo
     ├── avaliacao_1.pdf             # Descrição do trabalho
     ├── gerador_randon.py           # Gerados de dados para testes   
     ├── Makefile                    # Automatiza toda a etapa de compilação (Opcional)    

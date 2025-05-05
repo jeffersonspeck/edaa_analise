@@ -1,101 +1,101 @@
 Vetor,Tipo,Algoritmo,Tempo (s),±Tempo (s),Comparações,±Comparações,Memória (MB),Tamanho
 Vetor não ordenado,Existente,Sequencial,2.6e-05,±0.000014,51085.14,±28942.40,4.54,100k
-Vetor não ordenado,Existente,Sequencial,4.8e-05,±0.000000,100000.0,±0.00,4.54,100k
+Vetor não ordenado,Inexistente,Sequencial,4.8e-05,±0.000000,100000.0,±0.00,4.54,100k
 Vetor não ordenado,Existente,Sentinela,1.3e-05,±0.000007,51084.14,±28942.40,4.54,100k
-Vetor não ordenado,Existente,Sentinela,3.2e-05,±0.000010,99999.0,±0.00,4.54,100k
+Vetor não ordenado,Inexistente,Sentinela,3.2e-05,±0.000010,99999.0,±0.00,4.54,100k
 Vetor ordenado,Existente,Sequencial,2.5e-05,±0.000015,50368.61,±29358.89,4.54,100k
-Vetor ordenado,Existente,Sequencial,4.9e-05,±0.000003,100000.0,±0.00,4.54,100k
+Vetor ordenado,Inexistente,Sequencial,4.9e-05,±0.000003,100000.0,±0.00,4.54,100k
 Vetor ordenado,Existente,Sequencial Otimizada,2.6e-05,±0.000015,50368.61,±29358.89,4.54,100k
-Vetor ordenado,Existente,Sequencial Otimizada,5.3e-05,±0.000013,100000.0,±0.00,4.54,100k
+Vetor ordenado,Inexistente,Sequencial Otimizada,5.3e-05,±0.000013,100000.0,±0.00,4.54,100k
 Vetor ordenado,Existente,Binária,1e-06,±0.000000,15.71,±1.47,4.54,100k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,17.0,±0.00,4.54,100k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,17.0,±0.00,4.54,100k
 Vetor não ordenado,Existente,Sequencial,5e-05,±0.000028,101550.35,±57007.11,3.42,200k
-Vetor não ordenado,Existente,Sequencial,9.6e-05,±0.000002,200000.0,±0.00,3.42,200k
+Vetor não ordenado,Inexistente,Sequencial,9.6e-05,±0.000002,200000.0,±0.00,3.42,200k
 Vetor não ordenado,Existente,Sentinela,2.6e-05,±0.000015,101549.35,±57007.11,3.42,200k
-Vetor não ordenado,Existente,Sentinela,5e-05,±0.000002,199999.0,±0.00,3.42,200k
+Vetor não ordenado,Inexistente,Sentinela,5e-05,±0.000002,199999.0,±0.00,3.42,200k
 Vetor ordenado,Existente,Sequencial,6.5e-05,±0.000040,99484.99,±56458.84,3.42,200k
-Vetor ordenado,Existente,Sequencial,0.00015,±0.000008,200000.0,±0.00,3.42,200k
+Vetor ordenado,Inexistente,Sequencial,0.00015,±0.000008,200000.0,±0.00,3.42,200k
 Vetor ordenado,Existente,Sequencial Otimizada,4.9e-05,±0.000028,99484.99,±56458.84,3.42,200k
-Vetor ordenado,Existente,Sequencial Otimizada,9.7e-05,±0.000003,200000.0,±0.00,3.42,200k
+Vetor ordenado,Inexistente,Sequencial Otimizada,9.7e-05,±0.000003,200000.0,±0.00,3.42,200k
 Vetor ordenado,Existente,Binária,1e-06,±0.000000,16.72,±1.43,3.42,200k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,18.0,±0.00,3.42,200k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,18.0,±0.00,3.42,200k
 Vetor não ordenado,Existente,Sequencial,7.2e-05,±0.000043,147330.33,±87004.01,5.7,300k
-Vetor não ordenado,Existente,Sequencial,0.000146,±0.000004,300000.0,±0.00,5.7,300k
+Vetor não ordenado,Inexistente,Sequencial,0.000146,±0.000004,300000.0,±0.00,5.7,300k
 Vetor não ordenado,Existente,Sentinela,3.8e-05,±0.000022,147329.33,±87004.01,5.7,300k
-Vetor não ordenado,Existente,Sentinela,7.5e-05,±0.000002,299999.0,±0.00,5.7,300k
+Vetor não ordenado,Inexistente,Sentinela,7.5e-05,±0.000002,299999.0,±0.00,5.7,300k
 Vetor ordenado,Existente,Sequencial,7.8e-05,±0.000048,147981.08,±86064.35,5.7,300k
-Vetor ordenado,Existente,Sequencial,0.000148,±0.000008,300000.0,±0.00,5.7,300k
+Vetor ordenado,Inexistente,Sequencial,0.000148,±0.000008,300000.0,±0.00,5.7,300k
 Vetor ordenado,Existente,Sequencial Otimizada,7.2e-05,±0.000042,147981.08,±86064.35,5.7,300k
-Vetor ordenado,Existente,Sequencial Otimizada,0.000148,±0.000007,300000.0,±0.00,5.7,300k
+Vetor ordenado,Inexistente,Sequencial Otimizada,0.000148,±0.000007,300000.0,±0.00,5.7,300k
 Vetor ordenado,Existente,Binária,1e-06,±0.000001,17.21,±1.48,5.7,300k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,19.0,±0.00,5.7,300k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,19.0,±0.00,5.7,300k
 Vetor não ordenado,Existente,Sequencial,0.000105,±0.000065,202177.27,±117735.65,6.0,400k
-Vetor não ordenado,Existente,Sequencial,0.000198,±0.000010,400000.0,±0.00,6.0,400k
+Vetor não ordenado,Inexistente,Sequencial,0.000198,±0.000010,400000.0,±0.00,6.0,400k
 Vetor não ordenado,Existente,Sentinela,5.2e-05,±0.000030,202176.27,±117735.65,6.0,400k
-Vetor não ordenado,Existente,Sentinela,9.9e-05,±0.000001,399999.0,±0.00,6.0,400k
+Vetor não ordenado,Inexistente,Sentinela,9.9e-05,±0.000001,399999.0,±0.00,6.0,400k
 Vetor ordenado,Existente,Sequencial,0.000106,±0.000065,203648.12,±118867.07,6.0,400k
-Vetor ordenado,Existente,Sequencial,0.000194,±0.000004,400000.0,±0.00,6.0,400k
+Vetor ordenado,Inexistente,Sequencial,0.000194,±0.000004,400000.0,±0.00,6.0,400k
 Vetor ordenado,Existente,Sequencial Otimizada,0.000101,±0.000059,203648.12,±118867.07,6.0,400k
-Vetor ordenado,Existente,Sequencial Otimizada,0.000198,±0.000007,400000.0,±0.00,6.0,400k
+Vetor ordenado,Inexistente,Sequencial Otimizada,0.000198,±0.000007,400000.0,±0.00,6.0,400k
 Vetor ordenado,Existente,Binária,1e-06,±0.000000,17.73,±1.43,6.0,400k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,19.0,±0.00,6.0,400k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,19.0,±0.00,6.0,400k
 Vetor não ordenado,Existente,Sequencial,0.000127,±0.000073,253539.68,±144577.47,5.92,500k
-Vetor não ordenado,Existente,Sequencial,0.000276,±0.000031,500000.0,±0.00,5.92,500k
+Vetor não ordenado,Inexistente,Sequencial,0.000276,±0.000031,500000.0,±0.00,5.92,500k
 Vetor não ordenado,Existente,Sentinela,6.5e-05,±0.000038,253538.68,±144577.47,5.92,500k
-Vetor não ordenado,Existente,Sentinela,0.000126,±0.000004,499999.0,±0.00,5.92,500k
+Vetor não ordenado,Inexistente,Sentinela,0.000126,±0.000004,499999.0,±0.00,5.92,500k
 Vetor ordenado,Existente,Sequencial,0.000137,±0.000089,244487.65,±146445.66,5.92,500k
-Vetor ordenado,Existente,Sequencial,0.000245,±0.000007,500000.0,±0.00,5.92,500k
+Vetor ordenado,Inexistente,Sequencial,0.000245,±0.000007,500000.0,±0.00,5.92,500k
 Vetor ordenado,Existente,Sequencial Otimizada,0.000122,±0.000074,244487.65,±146445.66,5.92,500k
-Vetor ordenado,Existente,Sequencial Otimizada,0.000247,±0.000010,500000.0,±0.00,5.92,500k
+Vetor ordenado,Inexistente,Sequencial Otimizada,0.000247,±0.000010,500000.0,±0.00,5.92,500k
 Vetor ordenado,Existente,Binária,1e-06,±0.000001,17.98,±1.33,5.92,500k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,19.0,±0.00,5.92,500k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,19.0,±0.00,5.92,500k
 Vetor não ordenado,Existente,Sequencial,0.000154,±0.000093,295136.68,±167658.59,7.79,600k
-Vetor não ordenado,Existente,Sequencial,0.000295,±0.000010,600000.0,±0.00,7.79,600k
+Vetor não ordenado,Inexistente,Sequencial,0.000295,±0.000010,600000.0,±0.00,7.79,600k
 Vetor não ordenado,Existente,Sentinela,7.8e-05,±0.000048,295135.68,±167658.59,7.79,600k
-Vetor não ordenado,Existente,Sentinela,0.000301,±0.000013,599999.0,±0.00,7.79,600k
+Vetor não ordenado,Inexistente,Sentinela,0.000301,±0.000013,599999.0,±0.00,7.79,600k
 Vetor ordenado,Existente,Sequencial,0.000153,±0.000095,295811.17,±175054.01,7.79,600k
-Vetor ordenado,Existente,Sequencial,0.000294,±0.000005,600000.0,±0.00,7.79,600k
+Vetor ordenado,Inexistente,Sequencial,0.000294,±0.000005,600000.0,±0.00,7.79,600k
 Vetor ordenado,Existente,Sequencial Otimizada,0.000147,±0.000088,295811.17,±175054.01,7.79,600k
-Vetor ordenado,Existente,Sequencial Otimizada,0.000298,±0.000012,600000.0,±0.00,7.79,600k
+Vetor ordenado,Inexistente,Sequencial Otimizada,0.000298,±0.000012,600000.0,±0.00,7.79,600k
 Vetor ordenado,Existente,Binária,1e-06,±0.000000,18.23,±1.51,7.79,600k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,20.0,±0.00,7.79,600k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,20.0,±0.00,7.79,600k
 Vetor não ordenado,Existente,Sequencial,0.000173,±0.000101,347384.32,±201294.08,7.52,700k
-Vetor não ordenado,Existente,Sequencial,0.000346,±0.000011,700000.0,±0.00,7.52,700k
+Vetor não ordenado,Inexistente,Sequencial,0.000346,±0.000011,700000.0,±0.00,7.52,700k
 Vetor não ordenado,Existente,Sentinela,9.7e-05,±0.000064,347383.32,±201294.08,7.52,700k
-Vetor não ordenado,Existente,Sentinela,0.000179,±0.000006,699999.0,±0.00,7.52,700k
+Vetor não ordenado,Inexistente,Sentinela,0.000179,±0.000006,699999.0,±0.00,7.52,700k
 Vetor ordenado,Existente,Sequencial,0.000198,±0.000124,353261.54,±207109.25,7.52,700k
-Vetor ordenado,Existente,Sequencial,0.000353,±0.000017,700000.0,±0.00,7.52,700k
+Vetor ordenado,Inexistente,Sequencial,0.000353,±0.000017,700000.0,±0.00,7.52,700k
 Vetor ordenado,Existente,Sequencial Otimizada,0.000176,±0.000104,353261.54,±207109.25,7.52,700k
-Vetor ordenado,Existente,Sequencial Otimizada,0.00035,±0.000016,700000.0,±0.00,7.52,700k
+Vetor ordenado,Inexistente,Sequencial Otimizada,0.00035,±0.000016,700000.0,±0.00,7.52,700k
 Vetor ordenado,Existente,Binária,1e-06,±0.000001,18.46,±1.46,7.52,700k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,20.0,±0.00,7.52,700k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,20.0,±0.00,7.52,700k
 Vetor não ordenado,Existente,Sequencial,0.000201,±0.000114,402986.68,±225403.11,8.25,800k
-Vetor não ordenado,Existente,Sequencial,0.000401,±0.000010,800000.0,±0.00,8.25,800k
+Vetor não ordenado,Inexistente,Sequencial,0.000401,±0.000010,800000.0,±0.00,8.25,800k
 Vetor não ordenado,Existente,Sentinela,0.00012,±0.000080,402985.68,±225403.11,8.25,800k
-Vetor não ordenado,Existente,Sentinela,0.000213,±0.000014,799999.0,±0.00,8.25,800k
+Vetor não ordenado,Inexistente,Sentinela,0.000213,±0.000014,799999.0,±0.00,8.25,800k
 Vetor ordenado,Existente,Sequencial,0.000203,±0.000119,401052.47,±230255.39,8.25,800k
-Vetor ordenado,Existente,Sequencial,0.000404,±0.000007,800000.0,±0.00,8.25,800k
+Vetor ordenado,Inexistente,Sequencial,0.000404,±0.000007,800000.0,±0.00,8.25,800k
 Vetor ordenado,Existente,Sequencial Otimizada,0.000202,±0.000117,401052.47,±230255.39,8.25,800k
-Vetor ordenado,Existente,Sequencial Otimizada,0.000412,±0.000018,800000.0,±0.00,8.25,800k
+Vetor ordenado,Inexistente,Sequencial Otimizada,0.000412,±0.000018,800000.0,±0.00,8.25,800k
 Vetor ordenado,Existente,Binária,1e-06,±0.000001,18.68,±1.53,8.25,800k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,20.0,±0.00,8.25,800k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,20.0,±0.00,8.25,800k
 Vetor não ordenado,Existente,Sequencial,0.000231,±0.000140,450803.73,±262756.63,8.76,900k
-Vetor não ordenado,Existente,Sequencial,0.000451,±0.000014,900000.0,±0.00,8.76,900k
+Vetor não ordenado,Inexistente,Sequencial,0.000451,±0.000014,900000.0,±0.00,8.76,900k
 Vetor não ordenado,Existente,Sentinela,0.000133,±0.000090,450802.73,±262756.63,8.76,900k
-Vetor não ordenado,Existente,Sentinela,0.000233,±0.000006,899999.0,±0.00,8.76,900k
+Vetor não ordenado,Inexistente,Sentinela,0.000233,±0.000006,899999.0,±0.00,8.76,900k
 Vetor ordenado,Existente,Sequencial,0.000243,±0.000148,451482.47,±258523.89,8.76,900k
-Vetor ordenado,Existente,Sequencial,0.000458,±0.000012,900000.0,±0.00,8.76,900k
+Vetor ordenado,Inexistente,Sequencial,0.000458,±0.000012,900000.0,±0.00,8.76,900k
 Vetor ordenado,Existente,Sequencial Otimizada,0.000228,±0.000134,451482.47,±258523.89,8.76,900k
-Vetor ordenado,Existente,Sequencial Otimizada,0.000481,±0.000029,900000.0,±0.00,8.76,900k
+Vetor ordenado,Inexistente,Sequencial Otimizada,0.000481,±0.000029,900000.0,±0.00,8.76,900k
 Vetor ordenado,Existente,Binária,1e-06,±0.000002,18.9,±1.34,8.76,900k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,20.0,±0.00,8.76,900k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,20.0,±0.00,8.76,900k
 Vetor não ordenado,Existente,Sequencial,0.000277,±0.000169,502700.09,±289624.60,9.52,1000k
-Vetor não ordenado,Existente,Sequencial,0.000545,±0.000012,1000000.0,±0.00,9.52,1000k
+Vetor não ordenado,Inexistente,Sequencial,0.000545,±0.000012,1000000.0,±0.00,9.52,1000k
 Vetor não ordenado,Existente,Sentinela,0.000172,±0.000122,502699.09,±289624.60,9.52,1000k
-Vetor não ordenado,Existente,Sentinela,0.000276,±0.000017,999999.0,±0.00,9.52,1000k
+Vetor não ordenado,Inexistente,Sentinela,0.000276,±0.000017,999999.0,±0.00,9.52,1000k
 Vetor ordenado,Existente,Sequencial,0.000278,±0.000179,495042.16,±294682.58,9.52,1000k
-Vetor ordenado,Existente,Sequencial,0.000549,±0.000017,1000000.0,±0.00,9.52,1000k
+Vetor ordenado,Inexistente,Sequencial,0.000549,±0.000017,1000000.0,±0.00,9.52,1000k
 Vetor ordenado,Existente,Sequencial Otimizada,0.000253,±0.000153,495042.16,±294682.58,9.52,1000k
-Vetor ordenado,Existente,Sequencial Otimizada,0.000527,±0.000031,1000000.0,±0.00,9.52,1000k
+Vetor ordenado,Inexistente,Sequencial Otimizada,0.000527,±0.000031,1000000.0,±0.00,9.52,1000k
 Vetor ordenado,Existente,Binária,1e-06,±0.000001,18.93,±1.42,9.52,1000k
-Vetor ordenado,Existente,Binária,1e-06,±0.000000,20.0,±0.00,9.52,1000k
+Vetor ordenado,Inexistente,Binária,1e-06,±0.000000,20.0,±0.00,9.52,1000k

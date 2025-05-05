@@ -14,10 +14,16 @@ def parse_linked_list_metrics(directory):
         with open(fname, 'r', encoding='utf-8') as f:
             lines = [l.strip() for l in f if l.strip()]
         
+        # ESTE BLOCO ESTAVA FORA DO LOOP E FOI IDENTADO CORRETAMENTE AQUI
         for i, line in enumerate(lines):
             if line.startswith("[Lista Encadeada"):
                 ordem = "Ordenada" if "ORDENADA" in line else "Não ordenada"
-                tipo = "Existente" if "EXISTENTES" in line else "Inexistente"
+                if "1000 EXISTENTES" in line:
+                    tipo = "Existente"
+                elif "10 INEXISTENTES" in line:
+                    tipo = "Inexistente"
+                else:
+                    tipo = "Desconhecido"
                 alg = "Sequencial"
                 m1 = re.search(r"Tempo médio:\s*([\d\.]+)s\s*\(±\s*([\d\.]+)s\)", lines[i+1])
                 m2 = re.search(r"Comparações médias:\s*([\d\.]+)\s*\(±\s*([\d\.]+)\)", lines[i+2])
@@ -33,7 +39,7 @@ def parse_linked_list_metrics(directory):
                     "Memória (MB)": float(m3.group(1)),
                     "Tamanho": size
                 })
-    
+
     df = pd.DataFrame(records)
     df.to_csv(os.path.join(directory, "tabela_busca_completa_lista_encadeada.csv"), index=False)
     df.to_excel(os.path.join(directory, "tabela_busca_completa_lista_encadeada.xlsx"), index=False)

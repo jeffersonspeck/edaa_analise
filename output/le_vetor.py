@@ -15,7 +15,12 @@ def parse_metrics(directory):
         for i, line in enumerate(lines):
             if line.lower().startswith('vetor'):
                 vec = "Vetor não ordenado" if "não ordenado" in line.lower() else "Vetor ordenado"
-                tipo = "Existente" if "EXISTENTES" in line.upper() else "Inexistente"
+                if "1000 EXISTENTES" in line.upper():
+                    tipo = "Existente"
+                elif "10 INEXISTENTES" in line.upper():
+                    tipo = "Inexistente"
+                else:
+                    tipo = "Desconhecido"
                 alg_line = lines[i+1]
                 if "sentinela" in alg_line.lower():
                     alg = "Sentinela"
@@ -43,7 +48,7 @@ def parse_metrics(directory):
     return df
 
 # Altere o caminho conforme necessário
-diretorio = ""
+diretorio = ""  # ex: "/mnt/data" ou "./"
 df = parse_metrics(diretorio)
 
 # Exporta os arquivos

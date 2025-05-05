@@ -1,0 +1,41 @@
+Lista,Tipo,Algoritmo,Tempo (s),±Tempo (s),Comparações,±Comparações,Memória (MB),Tamanho
+Lista Encadeada - Não ordenada,Existente,Sequencial,8.7e-05,±0.000053,48915.86,±28942.40,8.5,100k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.000172,±0.000005,100000.0,±0.00,8.5,100k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.000587,±0.000361,50368.61,±29358.89,8.5,100k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.001133,±0.000009,100000.0,±0.00,8.5,100k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.000185,±0.000114,98450.65,±57007.11,14.75,200k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.000404,±0.000019,200000.0,±0.00,14.75,200k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.001886,±0.001218,99484.99,±56458.84,14.75,200k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.004439,±0.000531,200000.0,±0.00,14.75,200k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.00036,±0.000215,152670.67,±87004.01,23.19,300k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.000733,±0.000016,300000.0,±0.00,23.19,300k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.006738,±0.004065,147981.08,±86064.35,23.19,300k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.014255,±0.000298,300000.0,±0.00,23.19,300k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.000496,±0.000311,197823.73,±117735.65,29.37,400k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.001069,±0.000053,400000.0,±0.00,29.37,400k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.010889,±0.006437,203648.12,±118867.07,29.37,400k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.021718,±0.000501,400000.0,±0.00,29.37,400k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.000611,±0.000374,246461.32,±144577.47,36.33,500k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.001324,±0.000051,500000.0,±0.00,36.33,500k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.013562,±0.008322,244487.65,±146445.66,36.33,500k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.027791,±0.000218,500000.0,±0.00,36.33,500k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.000792,±0.000481,304864.32,±167658.59,42.29,600k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.001591,±0.000034,600000.0,±0.00,42.29,600k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.017598,±0.010585,295811.17,±175054.01,42.29,600k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.035684,±0.000312,600000.0,±0.00,42.29,600k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.000924,±0.000557,352616.68,±201294.08,47.68,700k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.00194,±0.000114,700000.0,±0.00,47.68,700k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.022237,±0.013241,353261.54,±207109.25,47.75,700k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.043312,±0.000423,700000.0,±0.00,47.75,700k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.001062,±0.000640,397014.32,±225403.11,53.76,800k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.002121,±0.000027,800000.0,±0.00,53.76,800k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.025818,±0.014871,401052.47,±230255.39,53.76,800k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.051612,±0.000452,800000.0,±0.00,53.76,800k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.001161,±0.000699,449197.27,±262756.63,60.33,900k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.002441,±0.000063,900000.0,±0.00,60.33,900k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.029461,±0.016899,451482.47,±258523.89,60.33,900k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.059344,±0.000739,900000.0,±0.00,60.33,900k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.001294,±0.000774,497300.91,±289624.60,66.76,1000k
+Lista Encadeada - Não ordenada,Existente,Sequencial,0.002756,±0.000117,1000000.0,±0.00,66.76,1000k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.033304,±0.019954,495042.16,±294682.58,66.76,1000k
+Lista Encadeada - Ordenada,Existente,Sequencial,0.067606,±0.000803,1000000.0,±0.00,66.76,1000k

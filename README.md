@@ -20,6 +20,7 @@ Esta atividade é a **Avaliação 1 – Algoritmos de Busca**.
     │
     ├── .git/                       # Estrutura do git     
     ├── analises/                   # Arquivos de análises e algoritmos de análises
+        ├── analise*.py                    # Arquivos de compilação de dados das análises    
         ├── .env                    # Configuração do banco PostgreSQL  
         ├── db.py                   # Inserção dos dados no banco PostgreSQL  
         ├── estruturas.py           # Script Python de análise da criação das estruturas
@@ -36,6 +37,7 @@ Esta atividade é a **Avaliação 1 – Algoritmos de Busca**.
     ├── include/                    # Arquivos de entrada (.txt) com dados para buscas (10 e 1000)
         └── funcoes.h               # Declarações de Metricas, Node e protótipos das funções de carga, busca e cálculo      
     ├── output/                     # Arquivos de saídas
+        ├── le*.py                  # Arquivos de compilação de dados das análises     
         ├── *.txt                   # Arquivos de saída de métricas 
         └── *.csv                   # Arquivos de saída de métricas    
     ├── src/                        # Implementações C das estruturas e algoritmos  
@@ -178,6 +180,67 @@ Faz o mesmo para `test_cria_encadeadas`, gerando métricas de criação de lista
 
     # Executa todos os testes de criação de listas encadeadas
     ./rodar_cria_encadeadas.sh
+
+## Scripts de Consolidação de Métricas
+
+Dois scripts em Python foram incluídos para leitura automática das saídas geradas pelos testes em C e organização das métricas em tabelas:
+
+### `le_vetor.py`
+Este script percorre os arquivos `saida_cria_vetores_*k.txt` na pasta especificada e extrai as métricas de busca em vetores ordenados e não ordenados. Para cada entrada, ele identifica:
+
+- Tipo de vetor (ordenado ou não ordenado)
+- Tipo de busca (sequencial, otimizada, com sentinela ou binária)
+- Tempo médio de execução
+- Número médio de comparações
+- Memória utilizada
+
+Os dados extraídos são organizados em um `DataFrame` do `pandas` e exportados em dois formatos:
+
+- `tabela_busca_completa_vetor.csv`
+- `tabela_busca_completa_vetor.xlsx`
+
+### `le_lista.py`
+Esse script realiza função similar ao anterior, mas para os arquivos `saida_encadeada_dados*k.txt`, extraindo informações de listas encadeadas ordenadas e não ordenadas. Ele identifica:
+
+- Tipo de lista (ordenada ou não ordenada)
+- Tipo de busca (existente ou inexistente)
+- Algoritmo (sempre busca sequencial)
+- Tempo médio, comparações e uso de memória
+
+Os resultados são exportados para:
+
+- `tabela_busca_completa_lista_encadeada.csv`
+- `tabela_busca_completa_lista_encadeada.xlsx`
+
+> Ambos os scripts devem ser executados com o diretório correto informado (pode ser `output/` ou outro), dependendo da organização dos seus arquivos de saída.
+
+### Scripts de Análise Gráfica
+
+Dois scripts Python são responsáveis por gerar os gráficos de desempenho a partir dos arquivos `.csv` criados pelas extrações anteriores:
+
+#### `analise_vetores.py`
+- Carrega os dados do arquivo `tabela_busca_completa_vetor.csv`
+- Gera gráficos para cada métrica (tempo, comparações, memória), separados por tipo de busca:
+  - **1000 EXISTENTES**
+  - **10 INEXISTENTES**
+- Cada gráfico compara os algoritmos aplicados sobre vetores:
+  - Busca Sequencial
+  - Sequencial Otimizada
+  - Com Sentinela
+  - Binária
+- Salva os gráficos como PNG (`tempo_existente_por_algoritmo.png`, etc.)
+- Exibe no terminal as **médias agrupadas por algoritmo**
+
+#### `analise_listas.py`
+- Lê o arquivo `tabela_busca_completa_lista_encadeada.csv`
+- Gera gráficos por tipo de lista:
+  - Lista Encadeada Ordenada
+  - Lista Encadeada Não Ordenada
+- Também separa por cenário de busca (existente e inexistente)
+- Salva os gráficos como PNG (`tempo_existente_listas_encadeadas.png`, etc.)
+- Exibe no terminal as **médias agrupadas por tipo de lista**
+
+> Ambos os scripts geram gráficos com estilo customizado (cores, marcadores e linhas) e salvam os arquivos no diretório atual.
 
 ## Licença
 Este projeto é de uso acadêmico/educacional, sem fins comerciais e o seu uso implica na citação do mesmo.

@@ -244,5 +244,38 @@ Dois scripts Python são responsáveis por gerar os gráficos de desempenho a pa
 
 > Ambos os scripts geram gráficos com estilo customizado (cores, marcadores e linhas) e salvam os arquivos no diretório atual.
 
+### Scripts de Análise com Desvio Padrão
+
+Dois novos scripts foram incluídos para complementar a análise com a visualização do **desvio padrão** das métricas de tempo de execução e número de comparações:
+
+#### `analise_vetores_desvio.py`
+Este script analisa os dados de busca em **vetores**, especificamente para casos com **1000 chaves existentes**, e gera gráficos que incluem:
+
+- Apenas desvio padrão (tempo e comparações)
+- Média e desvio padrão no mesmo gráfico
+
+São gerados arquivos `.png` com os seguintes nomes:
+
+- `vetor_desvio_tempo_(s)_existente.png`
+- `vetor_media_desvio_tempo_(s)_existente.png`
+- `vetor_desvio_comparações_existente.png`
+- `vetor_media_desvio_comparações_existente.png`
+
+#### `analise_listas_desvio.py`
+Este script realiza a mesma análise para **listas encadeadas** com **1000 chaves existentes**, gerando os gráficos:
+
+- `lista_desvio_tempo_(s)_existente.png`
+- `lista_media_desvio_tempo_(s)_existente.png`
+- `lista_desvio_comparações_existente.png`
+- `lista_media_desvio_comparações_existente.png`
+
+#### Como Executar
+
+Execute cada script com:
+
+```bash
+python analises/analise_vetores_desvio.py
+python analises/analise_listas_desvio.py
+
 ## Licença
 Este projeto é de uso acadêmico/educacional, sem fins comerciais e o seu uso implica na citação do mesmo.

@@ -4,6 +4,28 @@
 #include <math.h>
 #include "funcoes.h"
 
+int* carregar_dados_insercao_ordenada(const char* nome_arquivo, int* tamanho) {
+    FILE* f = fopen(nome_arquivo, "r");
+    if (!f) { perror("Erro ao abrir arquivo"); exit(1); }
+
+    int* vetor = malloc(1000000 * sizeof(int));  // Alocação inicial
+    int valor, i = 0;
+
+    while (fscanf(f, "%d", &valor) != EOF) {
+        int pos = i;
+        while (pos > 0 && vetor[pos - 1] > valor) {
+            vetor[pos] = vetor[pos - 1];
+            pos--;
+        }
+        vetor[pos] = valor;
+        i++;
+    }
+
+    *tamanho = i;
+    fclose(f);
+    return vetor;
+}
+
 int* carregar_dados(const char* nome_arquivo, int* tamanho) {
     FILE* f = fopen(nome_arquivo, "r");
     if (!f) { perror("Erro ao abrir arquivo"); exit(1); }

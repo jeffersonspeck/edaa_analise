@@ -12,6 +12,7 @@ typedef struct Node {
 } Node;
 
 int* carregar_dados(const char* nome_arquivo, int* tamanho);
+int* carregar_dados_insercao_ordenada(const char* nome_arquivo, int* tamanho);
 int* carregar_chaves(const char* nome_arquivo, int* total);
 Node* inserir_na_lista(Node* head, int valor);
 Node* inserir_ordenado(Node* head, int valor);

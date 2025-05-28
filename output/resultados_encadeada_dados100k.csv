@@ -1,0 +1,5 @@
+algoritmo,cenario,tempo_medio,desvio_tempo,comparacoes_medio,desvio_comp,memoria_MB,6.23,8.43
+Lista Encadeada,NÃO ordenada (1000 EXISTENTES),0.000097,0.000074,48915.86,28942.40,8.57
+Lista Encadeada,NÃO ordenada (10 INEXISTENTES),0.000266,0.000020,100000.00,0.00,8.57
+Lista Encadeada,ORDENADA (1000 EXISTENTES),0.000715,0.000502,50368.61,29358.89,8.57
+Lista Encadeada,ORDENADA (10 INEXISTENTES),0.001399,0.000011,100000.00,0.00,8.57

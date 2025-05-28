@@ -47,12 +47,10 @@ int main(int argc, char* argv[]) {
     printf("Tempo de criação do vetor NÃO ordenado: %.6f s\n", (double)(fim - inicio) / CLOCKS_PER_SEC);
     imprimir_memoria("criação do vetor NÃO ordenado");
 
-    int* vetor_ordenado = malloc(tam * sizeof(int));
-    for (int i = 0; i < tam; i++) vetor_ordenado[i] = vetor_nao_ordenado[i];
-
     inicio = clock();
-    ordenar(vetor_ordenado, tam);
+    int* vetor_ordenado = carregar_dados_insercao_ordenada(argv[1], &tam);
     fim = clock();
+    
     printf("Tempo de criação do vetor ORDENADO: %.6f s\n", (double)(fim - inicio) / CLOCKS_PER_SEC);
     imprimir_memoria("criação do vetor ORDENADO");
 
